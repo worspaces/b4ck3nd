@@ -5,17 +5,55 @@
 <!DOCTYPE html-->
 
 <style>
-  #loading-cover,
-  #unity-loading-bar,
-  #unity-progress-bar-empty,
-  #unity-progress-bar-full,
-  .spinner {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
+  body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
   }
-    </style>
+
+  #loading-cover {
+    background: none !important;
+  }
+
+  #unity-loading-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    text-align: center;
+    z-index: 9999;
+  }
+
+  #unity-logo img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #unity-progress-bar-empty {
+    width: 100%;
+    height: 20px;
+    background-color: #444;
+    border-radius: 6.5px;
+    overflow: hidden;
+  }
+
+ #unity-progress-bar-full {
+  height: 100%;
+  background-color: lime !important;
+  transition: width 0.2s ease;
+}
+
+  .spinner {
+    display: none;
+  }
+</style>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -72,7 +110,7 @@
     </div>
     <div id="loading-cover" style="background: url(&quot;https://cdn.jsdelivr.net/gh/z-f3-f1/1@main/background.jpg&quot;) center center / cover; display: none;">
         <div id="unity-loading-bar">
-            <div id="unity-logo"><img src="https://cdn.jsdelivr.net/gh/z-f3-f1/1@main/logo.png"></div>
+            <div id="unity-logo"><img src="https://raw.githubusercontent.com/worspaces/Z3NITHICATION/refs/heads/main/ads/image%20(1).png"></div>
             <div id="unity-progress-bar-empty" style="">
                 <div id="unity-progress-bar-full" style="width: 100%;"></div>
             </div>
