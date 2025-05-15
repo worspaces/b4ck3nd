@@ -1,0 +1,5 @@
+EXPECTING YOU DID ALL THE OTHER STEPS ON "skid.txt"
+
+Seacrh "canvas.style.background", and change the image to "https://raw.githubusercontent.com/worspaces/b4ck3nd/refs/heads/main/image/main.png"
+
+That's it!
