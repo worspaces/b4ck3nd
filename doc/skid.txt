@@ -1,4 +1,6 @@
-Find a game on G+
+THIS TUTORIAL IS FOR THE LOADING SCREENS WITH SPINNING IMAGES:
+
+Find a game on G+ (OR ANY UNBLOCKED GAMES WEBSITE THAT HAS A FULLSCREEN OPTION)
 
 Once you find one, click FULLSCREEN, it should open an about:blank
 
@@ -15,10 +17,6 @@ Go to GitHub, paste the code that you copied from the about:blank, and add this 
     padding: 0;
     overflow: hidden;
     height: 100vh;
-  }
-
-  #loading-cover {
-    background: none !important;
   }
 
   #unity-loading-bar {
@@ -60,5 +58,7 @@ Go to GitHub, paste the code that you copied from the about:blank, and add this 
 </style>
 
 Then, search "unity-logo", change the image to "https://raw.githubusercontent.com/worspaces/Z3NITHICATION/refs/heads/main/ads/image%20(1).png"
+
+To change the background, search "style.background", and change the image to "https://raw.githubusercontent.com/worspaces/b4ck3nd/refs/heads/main/image/main.png"
 
 That's it!
